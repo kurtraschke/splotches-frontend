@@ -1,0 +1,10 @@
+.splotches {
+  display: grid;
+  grid-template-columns: repeat(32, 2em);
+  gap: 0.2em 0.5em;
+}
+
+.splotch {
+  height: 2em;
+  width: 2em;
+}
