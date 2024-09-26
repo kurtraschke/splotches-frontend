@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@types/jquery": "^3.5.30",
+    "@types/jquery": "^3.5.31",
     "@types/luxon": "^3.4.2",
     "vite": "^5.4.3"
   },
