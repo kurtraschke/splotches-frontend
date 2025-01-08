@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@kitsuyui/luxon-ext": "^0.1.6",
-    "@supabase/postgrest-js": "^1.17.6",
+    "@supabase/postgrest-js": "^1.17.10",
     "bulma": "^1.0.2",
     "jquery": "^3.7.1",
     "luxon": "^3.5.0"
