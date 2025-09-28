@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/*noinspection CssOverwrittenProperties*/
+@utility auto-fill-* {
+    grid-template-columns: repeat(
+    auto-fill,
+    minmax(min(--value([*]), 100%), 1fr)
+  );
+    grid-template-columns: repeat(
+    auto-fill,
+    minmax(min(--value(--text-*), 100%), 1fr)
+  );
+    grid-template-columns: repeat(
+    auto-fill,
+    minmax(min(var(--spacing) * --value(integer), 100%), 1fr)
+  );
+}
+
+/*noinspection CssOverwrittenProperties*/
+@utility auto-fit-* {
+    grid-template-columns: repeat(auto-fit, minmax(min(--value([*]), 100%), 1fr));
+    grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(--value(--text-*), 100%), 1fr)
+  );
+    grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(var(--spacing) * --value(integer), 100%), 1fr)
+  );
+}
