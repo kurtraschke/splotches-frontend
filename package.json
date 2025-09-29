@@ -13,7 +13,7 @@
     "@kitsuyui/luxon-ext": "^0.2.1",
     "@tanstack/react-query": "^5.90.1",
     "@uwdata/flechette": "^2.2.3",
-    "daisyui": "^5.1.14",
+    "daisyui": "^5.1.25",
     "luxon": "^3.7.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
