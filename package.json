@@ -24,7 +24,7 @@
     "@tailwindcss/vite": "^4.1.17",
     "@tanstack/eslint-plugin-query": "^5.91.2",
     "@types/luxon": "^3.7.1",
-    "@types/react": "^19.2.5",
+    "@types/react": "^19.2.6",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react-swc": "^4.2.2",
     "eslint": "^9.39.1",
