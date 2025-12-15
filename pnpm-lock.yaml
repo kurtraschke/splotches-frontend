@@ -13,7 +13,7 @@ importers:
         version: 0.2.1(luxon@3.7.2)
       '@tanstack/react-query':
         specifier: ^5.90.12
-        version: 5.90.12(react@19.2.1)
+        version: 5.90.12(react@19.2.3)
       '@uwdata/flechette':
         specifier: ^2.2.6
         version: 2.2.6
@@ -24,11 +24,11 @@ importers:
         specifier: ^3.7.2
         version: 3.7.2
       react:
-        specifier: ^19.2.1
-        version: 19.2.1
+        specifier: ^19.2.3
+        version: 19.2.3
       react-dom:
         specifier: ^19.2.1
-        version: 19.2.1(react@19.2.1)
+        version: 19.2.1(react@19.2.3)
       tailwindcss:
         specifier: ^4.1.17
         version: 4.1.17
@@ -1359,8 +1359,8 @@ packages:
     peerDependencies:
       react: ^19.2.1
 
-  react@19.2.1:
-    resolution: {integrity: sha512-DGrYcCWK7tvYMnWh79yrPHt+vdx9tY+1gPZa7nJQtO/p8bLTDaHp4dzwEhQB7pZ4Xe3ok4XKuEPrVuc+wlpkmw==}
+  react@19.2.3:
+    resolution: {integrity: sha512-Ku/hhYbVjOQnXDZFv2+RibmLFGwFdeeKHFcOTlrt7xplBnya5OGn/hIRDsqDiSUcfORsDC7MPxwork8jBwsIWA==}
     engines: {node: '>=0.10.0'}
 
   resolve-from@4.0.0:
@@ -2060,10 +2060,10 @@ snapshots:
 
   '@tanstack/query-core@5.90.12': {}
 
-  '@tanstack/react-query@5.90.12(react@19.2.1)':
+  '@tanstack/react-query@5.90.12(react@19.2.3)':
     dependencies:
       '@tanstack/query-core': 5.90.12
-      react: 19.2.1
+      react: 19.2.3
 
   '@types/estree@1.0.8': {}
 
@@ -2739,12 +2739,12 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@19.2.1(react@19.2.1):
+  react-dom@19.2.1(react@19.2.3):
     dependencies:
-      react: 19.2.1
+      react: 19.2.3
       scheduler: 0.27.0
 
-  react@19.2.1: {}
+  react@19.2.3: {}
 
   resolve-from@4.0.0: {}
 

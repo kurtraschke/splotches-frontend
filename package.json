@@ -15,7 +15,7 @@
     "@uwdata/flechette": "^2.2.6",
     "daisyui": "^5.5.11",
     "luxon": "^3.7.2",
-    "react": "^19.2.1",
+    "react": "^19.2.3",
     "react-dom": "^19.2.1",
     "tailwindcss": "^4.1.17"
   },
