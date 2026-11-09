@@ -11,31 +11,31 @@
   },
   "dependencies": {
     "@kitsuyui/luxon-ext": "^0.2.5",
-    "@tanstack/react-query": "^5.105.0",
+    "@tanstack/react-query": "^5.107.1",
     "@uwdata/flechette": "^2.7.1",
     "daisyui": "^5.7.50",
     "luxon": "^3.7.2",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
-    "tailwindcss": "^4.3.3"
+    "tailwindcss": "^4.3.5"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@tailwindcss/vite": "^4.3.3",
-    "@tanstack/eslint-plugin-query": "^5.105.0",
+    "@tailwindcss/vite": "^4.3.5",
+    "@tanstack/eslint-plugin-query": "^5.107.1",
     "@types/luxon": "^3.7.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "@vitejs/plugin-react": "^6.1.2",
+    "@vitejs/plugin-react": "^6.2.1",
     "eslint": "^10.14.0",
     "eslint-plugin-react-dom": "^5.28.8",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.7",
     "eslint-plugin-react-x": "^5.28.8",
-    "globals": "^17.13.0",
+    "globals": "^17.14.0",
     "prettier": "3.9.10",
     "typescript": "~6.0.3",
     "typescript-eslint": "^8.72.1",
-    "vite": "^8.3.5"
+    "vite": "^8.3.6"
   }
 }
