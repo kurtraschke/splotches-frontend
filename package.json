@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@kitsuyui/luxon-ext": "^0.2.5",
-    "@tanstack/react-query": "^5.105.0",
+    "@tanstack/react-query": "^5.106.1",
     "@uwdata/flechette": "^2.7.1",
     "daisyui": "^5.7.50",
     "luxon": "^3.7.2",
