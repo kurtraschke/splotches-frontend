@@ -15,8 +15,8 @@ importers:
         specifier: ^5.107.1
         version: 5.107.1(@types/react@19.3.0)(react@19.3.1)
       '@uwdata/flechette':
-        specifier: ^2.7.1
-        version: 2.7.1
+        specifier: ^2.8.0
+        version: 2.8.0
       daisyui:
         specifier: ^5.7.50
         version: 5.7.50
@@ -604,8 +604,8 @@ packages:
     resolution: {integrity: sha512-SB8xqipSzZHUePCCLNeYxqnxq83X61/qzNhjQGbTfjxGZIeOEP7tBgWYX05Tcd6CgE02WdTJnh5b8kMZJ/+bnQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@uwdata/flechette@2.7.1':
-    resolution: {integrity: sha512-7rj4kkFmeePTuspAz5r/k0Esa18JplC5c5uLsaKQWmSBY2+SGdKRJRSqiRaA8HI19lfjh6+VSBXXyne0iVG68Q==}
+  '@uwdata/flechette@2.8.0':
+    resolution: {integrity: sha512-9Tvvu06RmO3STsXGiNmAMy0hADyHTEDcM07MpoEG5a3NYKFhvVeOwum0fLuhdPWIf1CpJlpdlWgY7BKduxbpaQ==}
 
   '@uwdata/wk-geojson@0.0.1':
     resolution: {integrity: sha512-4RpnKbdrphwzP+BwgzuGRqA/s03oT1rzHAKdU43Ozn8J1BCTwS+2iAGQ7YQAnrCkCi213WtQ7VYaFjVtvZotPQ==}
@@ -1725,7 +1725,7 @@ snapshots:
       '@typescript-eslint/types': 8.72.1
       eslint-visitor-keys: 5.0.1
 
-  '@uwdata/flechette@2.7.1':
+  '@uwdata/flechette@2.8.0':
     dependencies:
       '@uwdata/wk-geojson': 0.0.1
 
