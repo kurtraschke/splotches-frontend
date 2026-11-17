@@ -16,12 +16,12 @@ const Splotches: React.FunctionComponent<SplotchesParams> = ({ direction }) => {
     staleTime: Duration.fromISO("PT5S").as("millisecond"),
     refetchInterval: Duration.fromISO("PT5S").as("millisecond"),
     refetchIntervalInBackground: false,
-    queryFn: async () => {
-      const endpoint = new URL("splotches", import.meta.env.VITE_API_BASE_URL)
+    queryFn: async ({ signal, queryKey: [, direction] }) => {
+      const endpoint = new URL("splotches", import.meta.env.VITE_API_BASE_URL);
 
-      endpoint.searchParams.set("direction", direction)
+      endpoint.searchParams.set("direction", direction);
 
-      const response = await fetch(endpoint);
+      const response = await fetch(endpoint, { signal });
       if (!response.ok) {
         throw new Error("Backend request failed.");
       }
